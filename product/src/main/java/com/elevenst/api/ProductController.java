@@ -20,7 +20,7 @@ public class ProductController {
         //     e.printStackTrace();
         // }
         // System.out.println("Called: " + productId);
-        // return "[product id = " + productId + " at " + System.currentTimeMillis() + "]";
-        throw new RuntimeException("I/O Exceiption");
+        return "[product id = " + productId + " at " + System.currentTimeMillis() + "]";
+        // throw new RuntimeException("I/O Exceiption");
     }
 }

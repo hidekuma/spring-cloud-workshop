@@ -1,4 +1,4 @@
-rootProject.name = 'spring-cloud-workshop'
+rootProject.name = 'spring-cloud'
 include 'product'
 include 'display'
 

@@ -15,3 +15,9 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 3000
+
+product:
+  ribbon:
+    listOfServers: localhost:8082, localhost:7777
+    maxAutoRetries: 0
+    maxAutoRetriesNextServer: 1
